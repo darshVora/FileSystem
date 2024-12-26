@@ -20,3 +20,7 @@ CREATE TABLE FileData (
 Change password in appsetting.json for postgres and rabbitmq
 Modify throttle count in appsetting.json of FileDataProcessorService default is 30
 Run both FileDataProcessorService and FileManager
+
+In FileManager there are two API's one to Upload multi part file and another to get file data
+Upload api accepts Multipart data
+GetFileData api has query parameter pageno, pagesize and content and returns result
